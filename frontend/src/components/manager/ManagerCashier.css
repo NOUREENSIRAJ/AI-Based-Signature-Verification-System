@@ -1,0 +1,75 @@
+/* =======================
+   SHIMMER BASE
+======================= */
+.skeleton {
+  background: linear-gradient(90deg, #e2e8f0 25%, #f8fafc 50%, #e2e8f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+  border-radius: 6px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* =======================
+   STATS CARD SKELETON
+======================= */
+.skeleton-card {
+  height: 110px;
+  padding: 12px;
+}
+
+.skeleton.title {
+  width: 60%;
+  height: 12px;
+  margin-bottom: 10px;
+}
+
+.skeleton.number {
+  width: 40%;
+  height: 22px;
+  margin-bottom: 10px;
+}
+
+.skeleton.text {
+  width: 70%;
+  height: 10px;
+}
+
+/* =======================
+   HEADER SKELETON
+======================= */
+.skeleton.title.small {
+  width: 30%;
+  height: 14px;
+  margin: 10px 0;
+}
+
+/* =======================
+   CASHIER LIST SKELETON
+======================= */
+.skeleton-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.skeleton.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.skeleton.line.short {
+  width: 120px;
+  height: 10px;
+  margin-bottom: 6px;
+}
+
+.skeleton.line.long {
+  width: 180px;
+  height: 10px;
+}
